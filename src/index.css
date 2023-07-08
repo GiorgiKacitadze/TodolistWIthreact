@@ -1,0 +1,67 @@
+.main-container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  background-color: blue;
+  
+}
+
+input{
+  padding: 10px 15px;
+  border: 3px solid rgb(43, 41, 42);
+}
+
+.Btn-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+button{
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+ul{
+  text-align: center;
+  margin-bottom: 10px;
+  list-style-type: upper-alpha;
+  
+}
+
+.todoItem{
+  display: flex;
+  align-items: center;
+}
+
+.todoItem p{
+  margin-left: 5px;
+}
+
+
+.trashicon{
+  color: white;
+  font-size: 20px;
+}
+
+.todoimg {
+  width: 100%;
+  height: 250px;
+  background-image: url("../src/img/todo.jpg");
+  background-size: cover;
+  background-position:0% 40%;
+  position: relative;
+}
+
+.timeColor{
+  color: rgb(128, 3, 3);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
